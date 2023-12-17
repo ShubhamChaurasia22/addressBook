@@ -29,7 +29,7 @@
     
 function deleteCol(id) {
     $.ajax({
-        url: 'http://localhost:3000/user/'+id,
+        url: 'https://shubhamchaurasia22.github.io/addressBook/API/db.json/user/'+id,
         method: 'DELETE',
         success: function () {
             alert('record deleted');
@@ -44,7 +44,7 @@ function deleteCol(id) {
 function editCol(id) {
     var getID = id;
     $.ajax({
-        url: 'http://localhost:3000/user/'+getID,
+        url: 'https://shubhamchaurasia22.github.io/addressBook/API/db.json/'+getID,
         method: 'GET',
         dataType: 'json',
         success: function (data) {
@@ -87,7 +87,7 @@ function updateCol(id) {
             $('#last-'+id).addClass('outline');
             $('#tel-'+id).addClass('outline');
             $.ajax({
-            url: "http://localhost:3000/user/"+id,
+            url: "https://shubhamchaurasia22.github.io/addressBook/API/db.json/"+id,
             method: "PUT",
             data: dataObj,
             contentType: 'application/json; charset=utf-8',
@@ -180,7 +180,7 @@ function submitPopUp() {
     if(name.length > 0 && last.length > 0 && contact.length > 0) {
         if(regex_name && regex_last && regex_contact) {
             $.ajax({
-                url: "http://localhost:3000/user",
+                url: "https://shubhamchaurasia22.github.io/addressBook/API/db.json/user",
                 method: "POST",
                 data: dataObj,
                 contentType: 'application/json; charset=utf-8',
