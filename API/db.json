@@ -1,0 +1,70 @@
+{
+  "user": [
+    {
+      "name": "Shubham",
+      "last": "Chaurasia",
+      "Contact": "9648725203",
+      "id": 1
+    },
+    {
+      "name": "Riya",
+      "last": "Shukla",
+      "Contact": "6758493021",
+      "id": 7
+    },
+    {
+      "name": "Surendra",
+      "last": "Prajapati",
+      "Contact": "8765943210",
+      "id": 8
+    },
+    {
+      "name": "Saurabh",
+      "last": "Prajapate",
+      "Contact": "8765432101",
+      "id": 9
+    },
+    {
+      "name": "Ishan",
+      "last": "KishanM",
+      "Contact": "9087654853",
+      "id": 10
+    },
+    {
+      "name": "Suri",
+      "last": "Singh",
+      "Contact": "7895904303",
+      "id": 11
+    },
+    {
+      "name": "Anuj",
+      "last": "Yadav",
+      "Contact": "8790658432",
+      "id": 13
+    },
+    {
+      "name": "Shubham",
+      "last": "Kaknani",
+      "Contact": "9870654321",
+      "id": 14
+    },
+    {
+      "name": "Satyam",
+      "last": "Jaiswal",
+      "Contact": "8976542343",
+      "id": 15
+    },
+    {
+      "name": "Ashutosh",
+      "last": "Rana",
+      "Contact": "7688546773",
+      "id": 16
+    },
+    {
+      "name": "Shivam",
+      "last": "Singh",
+      "Contact": "7688546773",
+      "id": 17
+    }
+  ]
+}
