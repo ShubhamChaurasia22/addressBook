@@ -1,11 +1,11 @@
 (function getData() {
     $.ajax({
-        url: 'http://localhost:3000/user',
+        url: 'https://shubhamchaurasia22.github.io/addressBook/API/db.json',
         type: 'GET',
         dataType: 'json'
     })
     .done(function (response) {
-        $.getJSON("./API/db.json", function(posts) {
+        $.getJSON("https://shubhamchaurasia22.github.io/addressBook/API/db.json", function(posts) {
             posts.user.forEach(items => {
                 document.querySelector('tbody').innerHTML += `
                     <tr>
